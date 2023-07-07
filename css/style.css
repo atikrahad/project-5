@@ -190,12 +190,12 @@ nav{
 
     width: 600px;
     
-    margin: 90px 90px 90px 0;
+    margin: 115px 130px 70px 0;
 }
 .m-portfolio{
     margin-top: 30px;
     display: flex;
-    background-color: rgb(41, 38, 38);
+    background-color: rgb(35, 33, 37);
     position: relative;
 
 }
@@ -231,10 +231,35 @@ nav{
     background-color: rgba(0, 174, 255, 0.781);
 }
 .clints{
+    background-color: rgb(35, 33, 37);
+}
+.nest{
     display: flex;
-    justify-content: space-around;
-    background-color: rgb(41, 38, 38);
+    margin: 0 0 0 130px;
 }
 .clint{
-
+    margin: 100px 0;
+    width: 550px;
+    margin-right: 130px;
+    background-color: rgb(46, 45, 45);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.clint img{
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+    border-radius: 50%;
+}
+.clint p{
+    margin:  20px 15px;
+    color: rgba(255, 255, 255, 0.897);
+    text-align: justify;
+}
+.clint h6{
+    margin: 20px 0;
+    font-size: 20px;
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.466);
 }
