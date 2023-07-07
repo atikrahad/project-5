@@ -11,7 +11,7 @@ header{
 .topper{
     
     height: 127vh;
-    background-image: url("/img/XCbLxne4HhcBPlbrrFbTNz5DUGv1-f0a3g92.jpeg");
+    background-image: url("../img/XCbLxne4HhcBPlbrrFbTNz5DUGv1-f0a3g92.jpeg");
     background-position: right;
     background-repeat: no-repeat;
     background-size: 830px 1000px;
@@ -229,4 +229,12 @@ nav{
 }
 .portfolio-project a:hover{
     background-color: rgba(0, 174, 255, 0.781);
+}
+.clints{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(41, 38, 38);
+}
+.clint{
+
 }
