@@ -131,11 +131,52 @@ nav{
     display: flex;
     flex-direction: column;
     margin: 150px 194px;
+    
 }
 .write{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.write h1{
+    font-size: 38px;
+    margin-right: 35px;
+}
+
+
 .works {
     display: grid;
     grid-template-columns: auto auto auto;
+    margin: 70px 0;
+}
+.works div{
+    margin: 20px 0;
+}
+.work p{
+    margin-right: 70px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.795);
+
+}
+
+.work h4{
+    margin: 20px 0;
+    color: rgba(0, 0, 0, 0.842);
+}
+.work a{
+    text-decoration: none;
+    color: rgb(0, 174, 255);
+}
+.logo2 a{
+    text-decoration: none;
+    background-color: rgb(0, 174, 255);
+    padding: 15px 25px;
+    border-radius: 25px;
+    color: rgba(255, 255, 255, 0.89);
+    font-weight: 600;
+}
+.logo2 a:hover{
+    background-color: rgba(0, 174, 255, 0.726);
 }
